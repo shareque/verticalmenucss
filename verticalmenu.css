@@ -1,0 +1,92 @@
+/*------------------------------------*
+**----- menu developed by ------------*
+**----- Mirza shareque ---------------*
+**----- shareque@outlook.com ---------*
+**----- version: 1.0 -----------------*/
+
+.sidemenu
+{
+    /* background:#f3f3f3;*/
+    background: #393939;
+    display: block;
+    width: 50px;
+    position: relative;
+    height: 100%;
+}
+.sidemenu > ul
+{
+    margin-top:5px;
+}
+.sidemenu ul
+{
+    list-style-type: none;    
+    padding: 0;
+    width: 50px;
+}
+.sidemenu ul li a
+{
+    text-align: left;
+    height: 40px;
+    display:block;
+    font-size:18px;
+    line-height: 40px;
+    color: #fff;
+    text-decoration:none;
+}
+.sidemenu ul li a:hover,.sidemenu ul li a span
+{
+    background:#000;
+}
+.sidemenu ul li a span
+{
+    display: none;
+}
+.sidemenu ul li i 
+{
+  margin-left:10px !important;
+    font-size:20px;
+}
+
+.sidemenu li ul
+{
+    display: none;
+}
+.sidemenu .submenu
+{
+    display: none;
+    color: #000;
+    margin-left: 50px;
+    position: absolute;
+    width: 150px;
+    background:#333;
+    border-left:1px solid #fff;
+}
+.sidemenu .submenu a
+{
+    padding:0 10px;
+    display:block;
+}
+/* submenu*/
+
+.sidemenu li:hover span
+{
+    position:absolute;
+    display: block;   
+    margin-top:-40px;
+    margin-left:50px; 
+    width: 200px;
+    padding:0 10px;
+    border-left:1px solid #fff;
+}
+.sidemenu li:hover .submenu
+{
+    display: block;
+    color: #000;
+    margin-left: 50px;
+    position: absolute;
+    width: 220px;
+}
+.sidemenu li:hover .dropdown-toggle
+{
+    background:#000;
+}
